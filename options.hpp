@@ -168,7 +168,7 @@ inline int parseLRCArguments(int argc, char const ** argv, LRCOptions & O)
     addOption(parser,
               seqan::ArgParseOption("vw",
                                     "var_window",
-                                    "Var window size, look for del/ins inside this window",
+                                    "Var window size, look for del or ins inside this window",
                                     seqan::ArgParseArgument::INTEGER,
                                     "INT"));
     setDefaultValue(parser, "vw", O.varWindow);
