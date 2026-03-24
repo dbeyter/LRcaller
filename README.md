@@ -18,7 +18,7 @@ Download or clone this repository with submodules:
 ```sh
 mkdir -p ~/devel
 cd ~/devel/
-git clone --recurse-submodules https://github.com/DecodeGenetics/LRcaller
+git clone --recurse-submodules https://github.com/dbeyter/LRcaller
 ```
 
 And then build it:
